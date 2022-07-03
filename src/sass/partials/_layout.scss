@@ -1,0 +1,33 @@
+body {
+    font-family: $font-primary;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 7px $colour-ui-shadow;
+    transition: all 0.4s;
+}
+
+li:hover {
+    box-shadow: none;
+}
+
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, $colour-background-primary calc(100% - 1px), #927fff 0);
+  background-size: calc((100% - 7*7px)/7 + 7px) 100%;
+}
+

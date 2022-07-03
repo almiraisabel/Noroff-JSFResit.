@@ -1,0 +1,35 @@
+form {
+	margin: 1rem auto;
+	padding: 3rem;
+	border-radius: 6px;
+	max-width: 500px;
+	font-family: $font-secondary;
+}
+
+input,
+textarea {
+	font-size: 2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 5px;
+	border-radius: 6px;
+	border: none;
+}
+
+textarea {
+	height: 200px;
+}
+
+button {
+	font-size: 1rem;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+
+
+.form-error {
+	background: #fbb;
+	color: darkred;
+	padding: 0.5rem 1rem;
+}

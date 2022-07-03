@@ -1,0 +1,47 @@
+div {
+  color: $colour-primary;
+    text-decoration: none;
+    font-family: $font-secondary;
+}
+
+h1 {
+  color: $colour-primary;
+  font-family: $font-secondary;
+  font-size: 22px;
+  z-index: -2;
+
+}
+
+
+h1.header
+{
+z-index: 2;
+font-size: 5vw;
+font-family: $font-secondary;
+opacity: 1;
+position: absolute;
+top: 1%;
+padding-bottom: 4rem;
+left: 50%;
+  transform: translate(-50%, -0%);
+  
+} 
+
+p {
+    color: $colour-primary;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: $font-primary;
+}
+
+
+h2 {
+  color: $colour-primary;
+  text-decoration: none;
+  font-family: $font-secondary;
+}
+
+a:link {
+  text-decoration: none;
+}
+

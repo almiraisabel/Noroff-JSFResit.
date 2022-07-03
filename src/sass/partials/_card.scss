@@ -1,0 +1,50 @@
+
+.cards__item {
+display: inline-flex;
+flex-direction: row;
+justify-content: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 10px;
+  padding-top: 4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  color: $colour-primary;
+ 
+}
+
+.cards__details {
+box-sizing: border-box;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+  padding-top: 4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  color: $colour-primary;
+}
+
+
+div.cards {
+  color: $colour-primary;
+  align-items: center;
+}
+
+
+.cards__btn {
+  text-decoration: none;
+  background-color: transparent;
+  color: $colour-primary;
+  font-size: 1.5vw;
+  padding: 12px 24px;
+  border-color: $colour-primary;
+  border: 3px solid;
+}
+
+.cards__btn:hover {
+  background-color: $colour-background;
+}
