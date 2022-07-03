@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "node_modules",
+			"path": "..\\..\\..\\..\\..\\saving terra\\my-app\\node_modules"
+		},
+		{
+			"name": "my-app",
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {}
+}
